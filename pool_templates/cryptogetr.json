@@ -8,57 +8,6 @@
         }
     },
     {
-        "coin": "APX",
-        "servers": [
-            {
-                "geo": "US-Central",
-                "urls": [
-                    "us-central.cryptogetr.com:6974"
-                ]
-            },
-            {
-                "geo": "US-East",
-                "urls": [
-                    "us-east.cryptogetr.com:6974"
-                ]
-            },
-            {
-                "geo": "US-West",
-                "urls": [
-                    "us-west.cryptogetr.com:6974"
-                ]
-            },
-            {
-                "geo": "Canada",
-                "urls": [
-                    "can.cryptogetr.com:6974"
-                ]
-            }
-        ],
-        "miners": {
-            "teamredminer":{
-                "url": "stratum+tcp://%URL%",
-                "algo": "x16rv2",
-                "pass": "c=APX",
-                "template": "%WAL%.%WORKER_NAME%"
-            },
-            "wildrig-multi": {
-                "url": "stratum+tcp://%URL%",
-                "algo": "x16rv2",
-                "pass": "c=APX",
-                "template": "%WAL%.%WORKER_NAME%",
-                "user_config": "\"opencl-threads\" : \"2\""
-            },
-            "t-rex":{
-                "algo":"x16rv2",
-                "template":"%WAL%.%WORKER_NAME%",
-                "server":"stratum+tcp://%URL%",
-                "pass":"c=APX",
-                "ver": "0.19.14-cuda111"
-            }
-        }
-    },
-    {
         "coin": "RXD",
         "servers": [
             {
@@ -71,18 +20,6 @@
                 "geo": "US-East",
                 "urls": [
                     "us-east.cryptogetr.com:3093"
-                ]
-            },
-            {
-                "geo": "US-West",
-                "urls": [
-                    "us-west.cryptogetr.com:3093"
-                ]
-            },
-            {
-                "geo": "Canada",
-                "urls": [
-                    "can.cryptogetr.com:3093"
                 ]
             }
         ],
